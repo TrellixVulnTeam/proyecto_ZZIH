@@ -1,0 +1,22 @@
+*{padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;}
+body{
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+.contenedor-bienvenidos{
+  margin-top:200px;
+  margin-bottom: 200px;
+  display: flex;
+  justify-content:center;
+}
+.bienvenidos{
+  background-color: white;
+  text-align: center;
+  color: orange;
+  font-size: 65px;
+  width: 800px;
+  border:solid orange 7px;
+  border-radius: 5px;
+  padding: 10px;
+}

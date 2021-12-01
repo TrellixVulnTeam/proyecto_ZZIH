@@ -1,0 +1,82 @@
+header{
+	position: fixed;
+	z-index: 1;
+	min-width: 100%;
+	top: 0px;
+	background-image: url("../assets/img/fondos/header.jpg");
+	height: 160px;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 30px;
+	img{border-left:solid orange 2px;
+		border-top:solid orange 2px;
+		border-right:solid orange 2px; 
+		padding: 2px;
+		background-color:white;}
+	nav{
+		display: flex;
+		justify-content:start;
+		background-color: white;
+		flex-direction:row;
+		border:solid orange 2px;
+		align-items: center;
+
+		ul{
+			display: flex;
+			flex-direction:row;
+			list-style: none;
+			padding-left: 0px;
+			margin-bottom: 0px;
+			li{
+				padding-top: 10px;
+				padding-bottom: 10px;
+				padding-right: 6px;
+				min-width: 100px;
+				text-align: center;
+				align-items:right;
+				a{
+					text-decoration: none;
+					color: orange;
+					font-size: 17px;
+				}
+				ul{
+					display: none;
+					position: absolute;
+					text-align: left !important;
+					padding-left: 0px;
+					li{
+						background-color: white;
+						text-align: left;
+						color: white;
+					}
+					li:hover{
+					color: white;
+					padding-left: 0px !important;
+					}
+				}
+				a:hover{
+						color: white;
+					}
+				ul:hover{
+					display: flex;
+					flex-direction:column;
+					margin-bottom: 2px;
+					min-width: 100px;
+
+				}
+
+			}
+			li:hover{
+					background-color: #fdc152;
+
+					}
+			li:hover > ul{
+				display: block;
+			}
+		}
+		ul:hover{}
+	}
+
+}
+

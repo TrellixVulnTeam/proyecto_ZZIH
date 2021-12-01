@@ -1,0 +1,117 @@
+header {
+  position: fixed;
+  z-index: 1;
+  min-width: 100%;
+  top: 0px;
+  background-image: url("../assets/img/fondos/header.jpg");
+  height: 160px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px; }
+  header img {
+    border-left: solid orange 2px;
+    border-top: solid orange 2px;
+    border-right: solid orange 2px;
+    padding: 2px;
+    background-color: white; }
+  header nav {
+    display: flex;
+    justify-content: start;
+    background-color: white;
+    flex-direction: row;
+    border: solid orange 2px;
+    align-items: center; }
+    header nav ul {
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      padding-left: 0px;
+      margin-bottom: 0px; }
+      header nav ul li {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 6px;
+        min-width: 100px;
+        text-align: center;
+        align-items: right; }
+        header nav ul li a {
+          text-decoration: none;
+          color: orange;
+          font-size: 17px; }
+        header nav ul li ul {
+          display: none;
+          position: absolute;
+          text-align: left !important;
+          padding-left: 0px; }
+          header nav ul li ul li {
+            background-color: white;
+            text-align: left;
+            color: white; }
+          header nav ul li ul li:hover {
+            color: white;
+            padding-left: 0px !important; }
+        header nav ul li a:hover {
+          color: white; }
+        header nav ul li ul:hover {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 2px;
+          min-width: 100px; }
+      header nav ul li:hover {
+        background-color: #fdc152; }
+      header nav ul li:hover > ul {
+        display: block; }
+
+.contenedor-productos {
+  margin-right: 6px;
+  margin-left: 6px; }
+
+.contenedor-card {
+  padding: 0px;
+  height: 305px;
+  border-radius: 6px;
+  background-color: white;
+  margin-bottom: 10px; }
+
+.contenedorCard {
+  padding: 3px; }
+
+.img {
+  height: 300px;
+  border: solid orange 4px;
+  border-radius: 9px;
+  margin-bottom: 10px; }
+
+.img-card {
+  height: 160px;
+  padding: 5px; }
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }
+
+body {
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%); }
+
+.contenedor-bienvenidos {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: center; }
+
+.bienvenidos {
+  background-color: white;
+  text-align: center;
+  color: orange;
+  font-size: 65px;
+  width: 800px;
+  border: solid orange 7px;
+  border-radius: 5px;
+  padding: 10px; }
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }
