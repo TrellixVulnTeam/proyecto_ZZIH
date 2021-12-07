@@ -16,14 +16,16 @@ header{
 		background-color:white;}
 	nav{
 		display: flex;
-		justify-content:start;
 		background-color: white;
 		flex-direction:row;
 		border:solid orange 2px;
 		align-items: center;
-
+		label{
+			display: none;
+		}
 		ul{
 			display: flex;
+			justify-content:start;
 			flex-direction:row;
 			list-style: none;
 			padding-left: 0px;
@@ -35,10 +37,12 @@ header{
 				min-width: 100px;
 				text-align: center;
 				align-items:right;
+				cursor: pointer;
 				a{
 					text-decoration: none;
 					color: orange;
 					font-size: 17px;
+					cursor:pointer;
 				}
 				ul{
 					display: none;
@@ -63,7 +67,7 @@ header{
 					flex-direction:column;
 					margin-bottom: 2px;
 					min-width: 100px;
-
+					transition: 3s;
 				}
 
 			}
@@ -73,9 +77,16 @@ header{
 					}
 			li:hover > ul{
 				display: block;
+
 			}
 		}
 		ul:hover{}
+		button{
+			border: none;
+			background-color: white;
+			color: orange;
+			font-size: 30px;
+		}
 	}
 
 }

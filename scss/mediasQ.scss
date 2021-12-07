@@ -1,0 +1,53 @@
+$mediasQ:(
+tablet:768px,
+mobileL:425px,
+mobileM:375px,
+mobileS:320px
+);
+
+@media screen and (max-width: 768px) {
+	header{
+		position: fixed;
+		z-index: 1;
+		min-width: 100%;
+		top: 0px;
+		background-image: url("../assets/img/fondos/header.jpg");
+		height: 160px;
+		background-position: top;
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin-bottom: 30px;
+		div{
+			img{
+
+			}
+		}
+		div{
+			nav{
+				display: flex;
+				background-color: white;
+				flex-direction:row;
+				border:solid orange 2px;
+				align-items: center;
+				label{
+					display: block;
+				}
+				ul{
+					display: none;
+				}
+			}
+		}
+
+	}
+}
+
+@media screen and (max-width: 768px) {
+	
+}
+@media screen and (max-width: 768px) {
+	
+}
+@media screen and (max-width: 768px) {
+	
+}
+			
