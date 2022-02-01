@@ -1,0 +1,113 @@
+/* header{
+  position: fixed;
+  z-index: 1;
+  min-width: 100%;
+  top: 0px;
+  background-image: url("./assets/img/fondos/header.jpg");
+  height: 160px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;  */
+
+/**{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.App {
+  
+
+}
+
+.App-logo{
+  display: flex;
+  justify-content: start;
+  border: solid orange 2px;
+}
+nav{
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  background-color: white;
+  height: 40px;
+  border: solid orange 2px;
+}
+.contenedor-li{
+  display:flex;
+  flex-direction: row;
+  list-style: none;
+  text-decoration: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+.nav-li{
+ min-width: 100px;
+ text-align: center;
+ cursor: pointer;
+ color: orange;
+ padding-top: 7px;
+ padding-right: 6px;
+ min-width: 100px;
+ text-align: center;
+ cursor: pointer;
+}
+.nav-li:hover{
+  background-color: #fdc152;
+  color: white;
+}
+a{text-decoration: none;
+  text-align: center;
+  color: orange;
+  
+}
+a:hover{
+  color: white;
+}
+
+.contenedor-categorias{
+  display: none;
+  position: absolute;
+  text-align: left;
+  list-style: none;
+  text-decoration: none;
+  background-color: white;
+  min-width: 100px;
+  padding-left: 0px;
+}
+
+header div div nav ul li:hover > ul {
+  display:flex;
+  flex-direction: column;
+  text-align: left;
+  position: absolute;
+}
+.li-categorias{
+  text-align: left;
+}
+.li-categorias:hover{
+  background-color: #fdc152;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    
+  }
+}
+
+.App-header {
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/

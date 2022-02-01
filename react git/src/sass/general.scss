@@ -1,0 +1,38 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.contenedor-bienvenidos{
+  margin-top:200px;
+  margin-bottom: 200px;
+  display: flex;
+  justify-content:center;
+}
+.bienvenidos{
+  background-color: white;
+  text-align: center;
+  color: orange;
+  font-size: 65px;
+  width: 800px;
+  border:solid orange 7px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.carousel-inner{
+  height: 600px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gracias {
+  background-color: white;
+  display: flex;
+  color: orange;
+  font-size: 70px;
+  justify-content: center;
+  border: solid orange 4px;
+  padding: 20px;
+  text-aling: center; 
+}
