@@ -36,7 +36,7 @@ class Ayuda extends React.Component {
 						<Form onSubmit={this.enviarAyuda}>
 							<FormGroup>
 								<Label>¿En que lo podemos ayudar?</Label>
-								<Input type='textArea' name='ayuda' value={this.state.ayuda} onChange={this.onChange}/>
+								<Input className='ayuda' type='textArea' name='ayuda' value={this.state.ayuda} onChange={this.onChange}/>
 							</FormGroup>
 							<FormGroup>
 								<Button type='submit' name='pedirAyuda' >Pedir Ayuda</Button>

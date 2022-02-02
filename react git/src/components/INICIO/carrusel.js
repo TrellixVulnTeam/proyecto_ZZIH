@@ -1,8 +1,8 @@
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import React from 'react' ;
-let imagen1 = "./assets/img/carrucel/super1.png"
-let imagen2 = "./assets/img/carrucel/super2.jpg"
-let imagen3 = "./assets/img/carrucel/super3.jpg"
+let imagen1 = "./assets/img/carrucel/carrucel1.jpg"
+let imagen2 = "./assets/img/carrucel/carrucel2.jpg"
+let imagen3 = "./assets/img/carrucel/carrucel3.jpg"
 
 				
 

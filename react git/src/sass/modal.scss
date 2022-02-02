@@ -6,7 +6,6 @@
     color: orange;
     font-size: 20px;
     background-color: white;
-    padding: 5px;
     transition: all .3s;
 }
 #boton-carrito:hover {
@@ -14,9 +13,7 @@
     color: white;
     background-color:orange;
 }
-#boton-carrito:focus {
-   
-}
+
 
 .ub{
   width: 65px;
@@ -34,7 +31,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all .5s;
     opacity: 0;
     visibility: hidden;
 }

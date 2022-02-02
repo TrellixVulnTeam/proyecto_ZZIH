@@ -1,15 +1,15 @@
-/*header{
+header{
   position: fixed;
   z-index: 1;
   min-width: 100%;
   top: 0px;
-  background-image:URl("./assets/img/fondos/header.jpg");
-  height: 160px;
+  background-color: rgb(245, 232, 161);
+  height: 150px;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 30px; 
-}*/
+}
 .App-logo{
   display: flex;
   justify-content: start;
@@ -84,4 +84,7 @@ header div div nav ul li:hover > ul {
 .li-categorias:hover{
   background-color: #fdc152;
   font-size: 20px;
+}
+.Route{
+  list-style: none;
 }

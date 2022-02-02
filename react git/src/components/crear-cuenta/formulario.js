@@ -77,12 +77,12 @@ class Formulario extends React.Component{
                                
                                <FormGroup>
                                     <Label>Nombre y Apellido</Label>
-                                    <Input id="nombre" type="text" name="nombre" value={this.state.nombre} invalid={this.state.invalidNombre} onChange={this.onChange}  placeholder="nombre y apellido" className="bar"/>
+                                    <Input id="nombre" type="text" name="nombre" value={this.state.nombre} invalid={this.state.invalidNombre} onChange={this.onChange}  placeholder="nombre y apellido" className="nombre"/>
                                     <FormFeedback>{this.state.mensajeNombre}</FormFeedback>
                                 </FormGroup>
                                 <FormGroup>
                                     <Label>Correo Electronico</Label>
-                                    <Input type="mail" name="correo"  value={this.state.correo} onChange={this.onChange} invalid={this.state.invalidCorreo} id="correo" placeholder="correo electronico" className="bar"/>
+                                    <Input type="mail" name="correo"  value={this.state.correo} onChange={this.onChange} invalid={this.state.invalidCorreo} id="correo" placeholder="correo electronico" className="correo"/>
                                     <FormFeedback>{this.state.mensajeCorreo}</FormFeedback>
                                 </FormGroup>
                                 <FormGroup>

@@ -16,10 +16,10 @@ function App () {
       <ThemeContext.Provider value={state} >
         <BrowserRouter className="App">
           <Routes>
-            <Route path="/" element={<Inicio />} />
-            <Route path="/cuenta" element={<CrearCuenta/>} />
-            <Route path="/ayuda" element={<Ayudar/>} />
-            <Route path="/quienes" element={<Quienes />} />
+            <Route className="Route" path="/" element={<Inicio />} />
+            <Route className="Route" path="/cuenta" element={<CrearCuenta/>} />
+            <Route className="Route" path="/ayuda" element={<Ayudar/>} />
+            <Route className="Route" path="/quienes" element={<Quienes />} />
           </Routes>
         </BrowserRouter>
       </ThemeContext.Provider> 

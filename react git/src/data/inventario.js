@@ -1,109 +1,64 @@
+import React from 'react'
 let inventario = [{
             id: 1,
-            imagen: "./assets/img/antitranspirantes/anti2.jpg",
+            imagen: "./assets/img/casas/casa1.jpg",
             nombre: "antitanspirante",
-            precio: 200,
-            cantidad: 1
-        }, {
-            id: 2,
-            imagen: "./assets/img/antitranspirantes/anti3.jpg",
-            nombre: "degree",
-            precio: 200,
-            cantidad: 1
-        }, {
-            id: 3,
-            imagen: "./assets/img/antitranspirantes/anti4.jpg",
-            nombre: "nivea Men",
-            precio: 200,
-            cantidad: 1
-        }, {
-            id: 4,
-            imagen: "./assets/img/antitranspirantes/anti5.jpg",
-            nombre: "sceet",
-            precio: 200,
-            cantidad: 1
-        }, {
-            id: 5,
-            imagen: "./assets/img/bebidas/bebida.jpg",
-            nombre: "Dove",
-            precio: 200,
-            cantidad: 1
-        }, {
-            id: 6,
-            imagen: "./assets/img/bebidas/bebida1.jpg",
-            nombre: "Bebida",
-            precio: 200,
-            cantidad: 1
-        }, {
-            id: 7,
-            imagen: "./assets/img/bebidas/bebida2.jpg",
-            nombre: "Red Bull",
-            precio: 200,
-            cantidad: 1
-        }, {
-            id: 8,
-            imagen: "./assets/img/bebidas/bebida4.jpg",
-            nombre: "Vodka",
-            precio: 200,
-            cantidad: 1
-        }, {
-            id: 9,
-            imagen: "./assets/img/comestibles/com.jpg",
-            nombre: "seventeen",
-            precio: 200,
-            cantidad: 1
-        }, {
-            id: 10,
-            imagen: "./assets/img/comestibles/come1.jpg",
-            nombre: "spam",
-            precio: 200,
-            cantidad: 1
-        }, {
-            id: 11,
-            imagen: "./assets/img/comestibles/come2.jpg",
-            nombre: "Verduras",
-            precio: 200,
-            cantidad: 1
-        }, {
-            id: 12,
-            imagen: "./assets/img/comestibles/come3.jpg",
-            nombre: "Tubérculos",
-            precio: 200,
-            cantidad: 1
-        }, {
-            id: 13,
-            imagen: "./assets/img/comestibles/come4.jpg",
-            nombre: "Zanahorias",
-            precio: 200,
-            cantidad: 1
-        }, {
-            id: 14,
-            imagen: "./assets/img/antitranspirantes/anti.jpg",
-            nombre: "Delight",
-            precio: 200,
-            cantidad: 1
-        }, {
-            id: 15,
-            imagen: "./assets/img/limpieza/lim.jpg",
-            nombre: "Limpiavidrios",
-            precio: 200,
-            cantidad: 1
-        }, {
-            id: 16,
-            imagen: "./assets/img/limpieza/lim2.jpg",
-            nombre: "Jabon de cocina",
-            precio: 200,
-            cantidad: 1
-        }, {
-            id: 17,
-            imagen: "./assets/img/limpieza/lim3.jpg",
-            nombre: "Clean",
-            precio: 200,
-            cantidad: 1
-        }, {
-            id: 18,
-            imagen: "./assets/img/limpieza/lim4.jpg",
-            nombre: "Detergentes",
-            precio: 200,
-            cantidad: 1}]
-export default inventario 
+            precio: 10000000,
+            caracteristica:'Un terreno de 1 kilometro cadrado, 4 abitacione, una pisina, etc.'},
+            {id: 2,
+            imagen: "./assets/img/casas/casa2.jpg",
+            nombre: "antitanspirante",
+            precio: 10000000,
+            caracteristica:'Un terreno de 1 kilometro cadrado, 4 abitacione, una pisina, etc.'},
+            {id: 3,
+            imagen: "./assets/img/casas/casa3.jpg",
+            nombre: "antitanspirante",
+            precio: 10000000,
+            caracteristica:'Un terreno de 1 kilometro cadrado, 4 abitacione, una pisina, etc.'},
+            {id: 4,
+            imagen: "./assets/img/casas/casa4.jpg",
+            nombre: "antitanspirante",
+            precio: 10000000,
+            caracteristica:'Un terreno de 1 kilometro cadrado, 4 abitacione, una pisina, etc.'},
+            {id: 5,
+            imagen: "./assets/img/casas/casa5.jpg",
+            nombre: "antitanspirante",
+            precio: 10000000,
+            caracteristica:'Un terreno de 1 kilometro cadrado, 4 abitacione, una pisina, etc.'},
+            {id: 6,
+            imagen: "./assets/img/casas/casa6.jpg",
+            nombre: "antitanspirante",
+            precio: 10000000,
+            caracteristica:'Un terreno de 1 kilometro cadrado, 4 abitacione, una pisina, etc.'},
+            {id: 7,
+            imagen: "./assets/img/casas/casa7.jpg",
+            nombre: "antitanspirante",
+            precio: 10000000,
+            caracteristica:'Un terreno de 1 kilometro cadrado, 4 abitacione, una pisina, etc.'},
+            {id: 8,
+            imagen: "./assets/img/casas/casa8.jpg",
+            nombre: "antitanspirante",
+            precio: 10000000,
+            caracteristica:'Un terreno de 1 kilometro cadrado, 4 abitacione, una pisina, etc.'},
+            {id: 9,
+            imagen: "./assets/img/casas/casa9.jpg",
+            nombre: "antitanspirante",
+            precio: 10000000,
+            caracteristica:'Un terreno de 1 kilometro cadrado, 4 abitacione, una pisina, etc.'},
+            {id: 10,
+            imagen: "./assets/img/casas/casa10.jpg",
+            nombre: "antitanspirante",
+            precio: 10000000,
+            caracteristica:'Un terreno de 1 kilometro cadrado, 4 abitacione, una pisina, etc.'},
+            {id: 11,
+            imagen: "./assets/img/casas/casa11.jpg",
+            nombre: "antitanspirante",
+            precio: 10000000,
+            caracteristica:'Un terreno de 1 kilometro cadrado, 4 abitacione, una pisina, etc.'},
+            {id: 12,
+            imagen: "./assets/img/casas/casa12.jpg",
+            nombre: "antitanspirante",
+            precio: 10000000,
+            caracteristica:'Un terreno de 1 kilometro cadrado, 4 abitacione, una pisina, etc.'},
+        ]
+export default inventario

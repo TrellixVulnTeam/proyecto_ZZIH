@@ -1,12 +1,13 @@
 
 import React from 'react'
 import NavComponents from './INICIO/Nav';
+import Qsomos from './INICIO/quienes/quien';
 export default Quienes 
 function Quienes() {
 	return(
 		<React.Fragment>
 			<NavComponents/>
-			<div>Hola Etoy en quienes</div>
+			<Qsomos/>
 		</React.Fragment>
 		)
 }
